@@ -1,1 +1,1 @@
-(./img/holt.jpg)
+![holt](./img/screenshot.png)(./img/holt.jpg)
