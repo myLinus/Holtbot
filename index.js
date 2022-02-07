@@ -1,7 +1,10 @@
 require('dotenv').config()
 
+const myIntents = new Discord.Intents();
+// myIntents.add(Intents.FLAGS.GUILD_PRESENCES, Intents.FLAGS.GUILD_MEMBERS);
+
 const Discord = require('discord.js');
-const client = new Discord.Client();
+const client = new Discord.Client({intents: myIntents});
 const fs = require("fs");
 
 client.on("ready", () => {
@@ -27,4 +30,4 @@ for (const file of commands) {
   client.commands.set(command.name, command);
 }
 
-client.login(process.env.botToken);
+client.login(process.env.botToken)
