@@ -1,2 +1,1 @@
-# Holtbot
-A Discord bot running through Heroku
+(./img/holt.jpg)
