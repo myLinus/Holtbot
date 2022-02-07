@@ -1,0 +1,27 @@
+{
+  "name": "holtbot",
+  "version": "1.0.0",
+  "description": "Heroku-based discord bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myLinus/Holtbot.git"
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "author": "mylinus",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/myLinus/Holtbot/issues"
+  },
+  "homepage": "https://github.com/myLinus/Holtbot#readme",
+  "dependencies": {
+    "discord.js": "^13.6.0"
+  }
+}
