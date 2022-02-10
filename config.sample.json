@@ -3,6 +3,8 @@
     "botToken": "Bot-Token",
     "prefix": "-",
     "mongoDB": "mongodb uri",
+    "mongodbApiUser": "Username",
+    "mongodbSecret": "Secret",
     "inviteLink": "Invite link",
     "ownerIds": ["Discord User ID", "Discord User ID"]
 }
