@@ -1,0 +1,8 @@
+{
+    "name": "HoltBot",
+    "botToken": "Bot-Token",
+    "prefix": "-",
+    "mongoDB": "mongodb uri",
+    "inviteLink": "Invite link",
+    "ownerIds": ["Discord User ID", "Discord User ID"]
+}
