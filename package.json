@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/myLinus/Holtbot#readme",
   "dependencies": {
-    "discord.js": "^13.6.0"
+    "discord.js": "^13.6.0",
+    "mongoose": "^6.2.9"
   }
 }
